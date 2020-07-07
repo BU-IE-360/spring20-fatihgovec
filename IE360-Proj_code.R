@@ -5,6 +5,14 @@ library(stats)
 library(forecast)
 library(ggplot2)
 
+library("MASS")
+library("faraway")
+library("caret")
+library("car")
+library("nlme")
+library("nloptr")
+library("NlcOptim")
+
 get_token <- function(username, password, url_site){
   
   post_body = list(username=username,password=password)
